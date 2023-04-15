@@ -1,0 +1,141 @@
+/* Fix position */
+.panel-top .grouped-window-list-item-box:active:focus {
+	background-color: rgba(255, 255, 255, 0.1);
+    transition-duration: 300;
+    border-color: #1a8ad5;
+    box-shadow: none;
+	border-top-width: 2px;
+	padding-top: -3px;
+}
+
+.panel-bottom .grouped-window-list-item-box:active:focus {
+	background-color: rgba(255, 255, 255, 0.1);
+    transition-duration: 300;
+    border-color: #1a8ad5;
+    box-shadow: none;
+	border-bottom-width: 2px;
+	padding-bottom: -3px;
+}
+
+.panel-right .grouped-window-list-item-box:active:focus {
+	background-color: rgba(255, 255, 255, 0.1);
+    transition-duration: 300;
+    border-color: #1a8ad5;
+    box-shadow: none;
+	border-right-width: 2px;
+	padding-right: -3px;
+}
+
+.panel-left .grouped-window-list-item-box:active:focus {
+	background-color: rgba(255, 255, 255, 0.1);
+    transition-duration: 300;
+    border-color: #1a8ad5;
+    box-shadow: none;
+	border-left-width: 2px;
+	padding-left: -3px;
+}
+
+.grouped-window-list-item-box {
+	min-width: 42px;
+	min-height: 42px;
+	border-radius: 4px;
+	transition-duration: 300;
+}
+
+/* Design */
+
+.grouped-window-list-item-box:hover {
+	background-color: rgba(255, 255, 255, 0.05);
+	box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
+    transition-duration: 300;
+}
+
+/* Активный элемент, но не в фокусе */
+.grouped-window-list-item-box:active {
+	width: 180px;
+	background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
+    transition-duration: 300;
+}
+
+/* Активный элемент в фокусе */
+/*.grouped-window-list-item-box:focus {
+	background-color: rgba(255, 255, 255, 0.1);
+    transition-duration: 300;
+    border-color: #1a8ad5;
+    box-shadow: none;
+}*/
+
+.grouped-window-list-item-box:active:hover {
+	background-color: rgba(255, 255, 255, 0.15);
+    transition-duration: 300;
+}
+
+.grouped-window-list-item-box.top StLabel,
+.grouped-window-list-item-box.bottom StLabel {
+	margin-right: 9px;
+	padding: 0px;
+	text-align: left;
+	color: #ffffff;
+}
+
+/* Progress bar */
+.grouped-window-list-item-box .progress {
+	border-radius: 4px;
+	border: none;
+	background-color: rgba(77, 230, 57, 0.4);
+}
+
+/* Attention */
+.grouped-window-list-item-demands-attention {
+	width: 180px;
+	background-color: rgba(243, 63, 51, 0.4);
+}
+
+.grouped-window-list-item-label {
+	font-weight: bold;
+	width: 15em;
+	min-width: 15px;
+}
+
+.grouped-window-list-thumbnail-label {
+	padding-left: 2px;
+}
+
+.grouped-window-list-number-label {
+	z-index: 99;
+	text-shadow: 1px 1px 0px #3d3d3d;
+	color: #ffffff;
+}
+
+.grouped-window-list-item-box StLabel .grouped-window-list-number-label {
+	margin: 0px;
+}
+
+.grouped-window-list-badge {
+	border-radius: 4px;
+	background-color: rgba(243, 63, 51, 0.4);
+}
+
+.grouped-window-list-button-label {
+	padding-left: 4px;
+}
+
+.grouped-window-list-thumbnail-alert {
+	background-color: rgba(255, 52, 52, 0.3);
+}
+
+.grouped-window-list-thumbnail-menu {
+	color: #cbced1;
+	margin: 8px;
+}
+
+.grouped-window-list-thumbnail-menu .item-box {
+	spacing: 8px;
+}
+
+.grouped-window-list-thumbnail-menu .item-box:selected {
+	color: #ffffff;
+	background-color: #272b30;
+	border-radius: 4px;
+}

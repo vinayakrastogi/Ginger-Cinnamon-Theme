@@ -1,0 +1,72 @@
+#panel .applet-box {
+	color: #000;
+	border-radius: 4spx;
+    transition-duration: 300;
+}
+
+.panel-top, .panel-bottom, .panel-left, .panel-right {
+	color: black;
+	background-color: rgba(255,255,255,0.75);
+}
+.panel-top {
+	box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+}
+#panelLeft, #panelCenter, #panelRight {
+	color:#000
+}
+
+
+#panelRight .applet-box, #panelLeft .applet-box, #panelCenter .applet-box {
+    color:rgba(0,0,0,1);
+    padding-left:10px;
+    padding-right:10px;
+	box-shadow: none;
+    transition-duration:300;
+	margin:2px 4px 2px 4px;
+    background-color:rgba(255,255,255,0.0);
+}
+
+#panelRight .applet-box:hover, #panelLeft .applet-box:hover, #panelCenter .applet-box:hover {
+	background-color: rgba(0,0,0,0.1);
+    transition-duration: 0;
+    border-radius:5px;
+    color:rgba(0,0,0,1);
+}
+
+#panelRight .applet-box:active,
+#panelRight .applet-box:checked,
+#panelCenter .applet-box:active,
+#panelCenter .applet-box:checked,
+#panelLeft .applet-box:active,
+#panelLeft .applet-box:checked {
+    color:white;
+	background-color: rgba(20,20,20,0.8);
+    transition-duration: 300;
+	border-radius: 5px;
+    
+}
+
+
+.panel-dummy {
+	background-color: rgba(252, 65, 56, 0.5);
+}
+
+.panel-dummy:entered {
+	background-color: rgba(252, 65, 56, 0.6);
+}
+
+.panel-status-button {
+	border-width: 0;
+	-natural-hpadding: 3px;
+	-minimum-hpadding: 3px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.panel-button {
+	-natural-hpadding: 6px;
+	-minimum-hpadding: 2px;
+	font-weight: bold;
+	color: green;
+	transition-duration: 100;
+}
