@@ -6,3 +6,9 @@ A theme for Cinnamon Desktop Environment with an eyecandy panel design.
 ![Screenshot](https://user-images.githubusercontent.com/107737503/232187311-f252ba25-397f-42cb-a6e5-079ac751d817.png)
 
  - Dock used is Plank Dock, (Its theme is also included in the files)
+
+# Installation
+ - Copy the folder Ginger (containing cinnamon folder) to .themes in the home directory
+ - Copy Ginger_Plank_Theme to .local/share/plank/themes
+ 
+ - Change the themes from the Cinnamon Themes app and Ctrl + Right click on plank dock and then click on preferences to change plank theme.
