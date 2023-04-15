@@ -1,2 +1,5 @@
-# Ginger-Cinnamon-Theme
-A theme for Cinnamon Desktop Environment
+# Ginger-Cinnamon-Theme (still under developement)
+A theme for Cinnamon Desktop Environment with an eyecandy panel design.
+
+ - It looks great light coloured desktop Wallpaper.
+ - It will look good with most gtk3/gtk4 themes as the color scheme contain shade of black and white only.
