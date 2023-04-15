@@ -1,4 +1,4 @@
-# Ginger-Cinnamon-Theme (still under developement)
+# Ginger-Cinnamon-Theme (under developement)
 A theme for Cinnamon Desktop Environment with an eyecandy panel design.
 
  - It looks great light coloured desktop Wallpaper.
